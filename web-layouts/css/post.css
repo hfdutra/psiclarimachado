@@ -1,0 +1,105 @@
+/* 
+	Arquivo CSS geral com estilos da página Post
+*/
+
+.item.container {
+  background: white;
+  padding: 5vw;
+  border-radius: 50px;
+  display: block;
+  position: relative;
+  clear: both;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.centrar hr {
+  margin:40px auto!important;
+}
+
+#post section {
+  background-color: #f9f0ec ;
+}
+
+#post #interesse {
+  margin-top: 0;
+  padding-bottom: 5vw;
+}
+
+h1.cog-heading {
+  font-size: 3rem!important;
+  letter-spacing: -0.1rem!important;
+  line-height: 1!important;
+  font-weight: bold!important;
+  color: #04063e!important;
+}
+
+#interesse form legend,
+#interesse form h1,
+span.cog-button__text {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.cog-abuse.cog-wrapper,
+.cog-branding.cog-branding--minimal{
+  display: none!important;
+}
+
+.cog-button.cog-button--submit,
+span.cog-button__text {
+   background: #ff1562 !important;
+    border: 0!important;
+    border-radius: 0!important;
+    padding: 10px 20px!important;
+}
+
+#post hr {
+  margin: 40px 0;
+}
+
+#post .itens {
+  padding-bottom: 5vw;
+}
+
+#post .area {
+  width: 100%;
+  text-align: left;
+  padding: 0;
+}
+
+#post section p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+  /* Mobile First */
+  
+  /* Tablet */
+  
+  @media (max-width: 999px) and (min-width: 769px) {
+
+  }
+  
+  @media (max-width: 768px) {
+    #post .itens {
+      padding: 5vw 0;
+    }
+
+    .item.container {
+      padding: 10vw;
+    }
+
+    #post #topo {
+      padding: 150px 0 50px;
+  }
+  }
+  
+  /* Smartphone */
+  
+  @media (max-width: 425px) {
+
+
+  }
+  
