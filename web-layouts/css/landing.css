@@ -1,0 +1,170 @@
+/* 
+	Arquivo CSS geral com estilos da página Post
+*/
+
+
+body {
+  background-color: #f9f0ec;
+}
+
+.item.container {
+  background: white;
+  padding: 5vw;
+  border-radius: 50px;
+  display: block;
+  position: relative;
+  clear: both;
+}
+.logo {
+  float: unset;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.centrar hr {
+  margin:40px auto!important;
+}
+
+#post section {
+  background-color: #f9f0ec ;
+}
+
+#post #ajuda {
+  margin-top: 0;
+  padding-bottom: 5vw;
+}
+
+h1.cog-heading {
+  font-size: 3rem!important;
+  letter-spacing: -0.1rem!important;
+  line-height: 1!important;
+  font-weight: bold!important;
+  color: #04063e!important;
+}
+
+#ajuda form legend,
+#ajuda form h1,
+span.cog-button__text {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+
+.cog-abuse.cog-wrapper,
+.cog-branding.cog-branding--minimal{
+  display: none!important;
+}
+
+.cog-button.cog-button--submit,
+span.cog-button__text {
+   background: #ff1562 !important;
+    border: 0!important;
+    border-radius: 0!important;
+    padding: 10px 20px!important;
+}
+
+#post hr {
+  margin: 40px 0;
+}
+
+#post .itens {
+  padding-bottom: 5vw;
+}
+
+#post .area {
+  width: 100%;
+  text-align: left;
+  padding: 0;
+}
+
+#post section p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+#banner-landing {
+  height: 700px;
+  background-image: url(../images/topo-newsletter.jpg);
+  background-size: cover;
+  display: block;
+  position: relative;
+  background-position: center;
+  padding: 0 10%;
+  border-radius: 0 0 15vw 15vw;
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 0 80px 20px rgb(143 126 118);
+}
+
+#banner-landing h1,
+#banner-landing h4 {
+  color: white;
+  text-align: left;
+}
+
+#banner-landing .centrar hr {
+  margin: 40px 0!important;
+}
+
+#banner-landing .centrar {
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+section#primeiro {
+  padding-top: 5vw;
+}
+
+a.botao.botao-landing {
+  color: white;
+  margin: 40px 0 0;
+  width: auto;
+}
+
+a.botao.botao-landing:hover {
+  background-color: #ff1562;
+  border-color: #ff1562;
+}
+
+a.acao.botao-landing {
+  color: #04063e;
+  border-color: #04063e;
+  width: 300px
+}
+
+a.acao.botao-landing:hover {
+  color: white;
+}
+
+  /* Mobile First */
+  
+  /* Tablet */
+  
+  @media (max-width: 999px) and (min-width: 769px) {
+
+  }
+  
+  @media (max-width: 768px) {
+    #post .itens {
+      padding: 5vw 0;
+    }
+
+    .item.container {
+      padding: 10vw;
+    }
+
+    #post #topo {
+      padding: 150px 0 50px;
+  }
+  }
+  
+  /* Smartphone */
+  
+  @media (max-width: 425px) {
+
+
+  }
+  
